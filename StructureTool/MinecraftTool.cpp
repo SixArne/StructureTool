@@ -6,9 +6,9 @@
 #include <iomanip>
 #include <Windows.h>
 
-#include <rapidjson/rapidjson.h>
-#include <rapidjson/document.h>
-#include <rapidjson/istreamwrapper.h>
+#include <rapidjson.h>
+#include <document.h>
+#include <istreamwrapper.h>
 
 #include <locale>
 #include <vector>

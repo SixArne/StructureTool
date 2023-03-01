@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <rapidjson/document.h>
+#include <document.h>
 
 #include "Structure.h"
 

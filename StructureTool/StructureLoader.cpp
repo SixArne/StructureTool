@@ -5,9 +5,9 @@
 #include <iostream>
 
 // External libs
-#include <rapidjson/rapidjson.h>
-#include <rapidjson/document.h>
-#include <rapidjson/istreamwrapper.h>
+#include "rapidjson.h"
+#include <document.h>
+#include <istreamwrapper.h>
 
 void StructureLoader::LoadStructureFromJSON(const std::string& jsonFile, Structure& structure)
 {

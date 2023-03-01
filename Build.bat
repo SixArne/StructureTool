@@ -1,5 +1,5 @@
 call mkdir build
-call cd buildc
+call cd build
 call cmake ..
 call cmake --build .
 

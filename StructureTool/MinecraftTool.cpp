@@ -122,6 +122,8 @@ int wmain(int argc, wchar_t* argv[], wchar_t* envp[])
     // Enable buffering to prevent VS from chopping up UTF-8
     setvbuf(stdout, nullptr, _IOFBF, 1000);
 
+    auto argument = argv[0];
+
     Structure outStructure{};
     StructureLoader::LoadStructureFromJSON("Data/structure.json", outStructure);
     //if (argc >= 3)
